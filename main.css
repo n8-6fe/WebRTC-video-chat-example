@@ -1,0 +1,50 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.left{ 
+    align-content: center;
+}
+
+#videos {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 10px;
+    margin: 20px;
+    column-gap: 1.5em;
+}
+
+video {
+    width: 100%;
+    border: 2px solid;
+    background-color: grey;
+}
+
+#create-section{
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+    float: left;
+}
+
+#answer-section{
+    padding: 10px;
+    margin: 10px;
+    width: 40%;
+    float: right;
+}
+
+textarea {
+    height: 80px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:800px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
